@@ -5,7 +5,7 @@
 </p>
 
 <h2>Project Description</h2>
-<p>A fictional website for the fictional band 'Hi-Fi Rush' from the game of the same name. </p>
+<p>A fictional website for the fictional band 'Hi-Fi Rush' from the game of the same name. The main purpose of this was to have a HTML/CSS project to use as I learn PHP/SQL/WordPress.</p>
 <p>You can see the repository in action at: <a href='https://hi-fi-rush.vercel.app/'>Hi-Fi Rush | New Vanderlay Tour</a>.</p>
 </br>
 
