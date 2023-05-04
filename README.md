@@ -11,6 +11,8 @@
 
 ![hfr](https://user-images.githubusercontent.com/108422924/236238232-67434058-de3a-4440-991b-ca73f22af9a5.png)
 
+<p>© 2023 Bethesda Softworks LLC, a ZeniMax Media company. Trademarks belong to their respective owners. All rights reserved.</p>
+
 <h2>Project Status</h2>
 <p>✨ COMPLETE ✨</p>
 
