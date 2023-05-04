@@ -1,0 +1,281 @@
+@import url(//db.onlinewebfonts.com/c/5f91a8a4240f92c40960ca073fc1e1fa?family=CCCutthroatW00-Regular);
+@font-face {
+  font-family: "CCCutthroatW00-Regular";
+  src: url("//db.onlinewebfonts.com/t/5f91a8a4240f92c40960ca073fc1e1fa.eot");
+  src: url("//db.onlinewebfonts.com/t/5f91a8a4240f92c40960ca073fc1e1fa.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/5f91a8a4240f92c40960ca073fc1e1fa.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/5f91a8a4240f92c40960ca073fc1e1fa.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/5f91a8a4240f92c40960ca073fc1e1fa.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/5f91a8a4240f92c40960ca073fc1e1fa.svg#CCCutthroatW00-Regular")
+      format("svg");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --blue: #014ab9;
+  --cyan-b: #00edfd;
+  --purple: #6b36bc;
+  --yellow: #ffcc44;
+  --light-y: #ffff00;
+  --green: #00b261;
+  --red: #ef0000;
+  --pink: #fd0075;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+body {
+  background: url("/assets/HFR-bg.png");
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bg {
+  padding: 80px 100px 40px 100px;
+  background: linear-gradient(
+    180deg,
+    var(--blue) 0%,
+    var(--purple) 50%,
+    var(--pink) 100%
+  );
+  box-shadow: 10px 0px 10px 10px rgba(0, 0, 0, 0.25),
+    -10px 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.cut {
+  font-family: "CCCutthroatW00-Regular", sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  color: var(--white);
+  text-shadow: 2px 0 var(--black), -2px 0 var(--black), 0 2px var(--black),
+    0 -2px var(--black), 1px 1px var(--black), -1px -1px var(--black),
+    1px -1px var(--black), -1px 1px var(--black), 3px 3px 0px #000000;
+}
+
+.flex {
+  display: flex;
+  min-width: 200px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.flex-sb {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+}
+
+.img-banner {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+  object-position: top;
+}
+
+.hfr {
+  z-index: 100;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: top;
+  margin-top: -300px;
+  position: relative;
+}
+
+.sub {
+  margin-top: -20px;
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+  object-position: top;
+  position: relative;
+}
+
+.title {
+  font-family: "Saira", sans-serif;
+  color: var(--white);
+  text-shadow: 2px 0 var(--black), -2px 0 var(--black), 0 2px var(--black),
+    0 -2px var(--black), 1px 1px var(--black), -1px -1px var(--black),
+    1px -1px var(--black), -1px 1px var(--black), 5px 5px 0px #000000;
+  font-size: 3.75rem;
+  text-transform: uppercase;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.date {
+  font-family: "Saira", sans-serif;
+  color: var(--white);
+  text-shadow: 2px 0 var(--black), -2px 0 var(--black), 0 2px var(--black),
+    0 -2px var(--black), 1px 1px var(--black), -1px -1px var(--black),
+    1px -1px var(--black), -1px 1px var(--black), 3px 3px 0px #000000;
+  font-size: 2.5rem;
+}
+
+.desc-1,
+.desc-2 {
+  font-family: "CCCutthroatW00-Regular", sans-serif;
+  font-size: 1.25rem;
+  text-shadow: 2px 0 var(--black), -2px 0 var(--black), 0 2px var(--black),
+    0 -2px var(--black), 1px 1px var(--black), -1px -1px var(--black),
+    1px -1px var(--black), -1px 1px var(--black), 2px 2px 0px #000000;
+}
+
+.desc-1 {
+  color: var(--yellow);
+}
+
+.desc-2 {
+  color: var(--white);
+}
+
+.border-parent > div:first-child {
+  border-top: 2px solid var(--black);
+  border-bottom: 2px solid var(--black);
+}
+
+.border-parent > div {
+  border-bottom: 2px solid var(--black);
+}
+
+.btn {
+  margin-top: 80px;
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+}
+
+.btn:hover {
+  filter: hue-rotate(140deg);
+}
+
+.cat-808 {
+  width: 113px;
+  height: 116px;
+  margin-top: 400px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  font-family: "CCCutthroatW00-Regular", sans-serif;
+  color: var(--white);
+  font-size: 0.75rem;
+  text-shadow: 2px 0 var(--black), -2px 0 var(--black), 0 2px var(--black),
+    0 -2px var(--black), 1px 1px var(--black), -1px -1px var(--black),
+    1px -1px var(--black), -1px 1px var(--black), 1px 1px 0px #000000;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.margin-20 {
+  margin-bottom: 20px;
+}
+
+/* Media query */
+
+@media (max-width: 1200px) {
+  .flex {
+    gap: 20px;
+  }
+  .flex-sb {
+    gap: 100px;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .date {
+    font-size: 2rem;
+  }
+  .desc-1,
+  .desc-2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .bg {
+    padding: 40px 50px 20px 50px;
+  }
+  .flex {
+    gap: 20px;
+  }
+  .hfr {
+    width: 80%;
+  }
+  .flex-sb {
+    gap: 50px;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .date {
+    font-size: 1.5rem;
+  }
+  .desc-1,
+  .desc-2 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .bg {
+    padding: 20px 25px 10px 25px;
+  }
+  .flex {
+    gap: 5px;
+  }
+  .sub {
+    margin-top: -10px;
+    width: 60%;
+  }
+  .flex {
+    gap: 5px;
+  }
+  .hfr {
+    width: 80%;
+  }
+  .flex-sb {
+    gap: 30px;
+  }
+  .btn {
+    margin-top: 40px;
+    width: 60%;
+  }
+  .cat-808 {
+    width: 20%;
+    height: auto;
+    margin-top: 200px;
+    margin-bottom: 10px;
+  }
+  .title {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .cut {
+    font-size: 0.75rem;
+  }
+  .date {
+    font-size: 1rem;
+  }
+  .desc-1,
+  .desc-2 {
+    font-size: 0.75rem;
+  }
+  .footer {
+    font-size: 0.6rem;
+  }
+}
